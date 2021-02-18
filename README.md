@@ -9,4 +9,4 @@ A telegram bot which can scan telegram files smaller than 32MB.
   
   3. Add your virustotal_api
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/uaudith/Virustotal-telegram)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hirusha-H/Virustotal-telegram)
