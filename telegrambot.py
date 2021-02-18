@@ -44,7 +44,7 @@ def progress(client, current, total, message_id, chat_id, start):
 			client.edit_message_text(
 				chat_id,
 				message_id,
-				text="Downloading...\n {}".format(tmp)
+				text="Downloading... @NexaBotsUpdates\n {}".format(tmp)
 			)
 		except:
 			pass
@@ -78,7 +78,7 @@ def download_telegram_media(client, message):
 	if not message.from_user.id == me :
 		client.send_message(
 			chat_id=message.chat.id,
-			text = 'Please host your own bot at \nhttps://github.com/uaudith/Virustotal-telegram'
+			text = 'This is a Open source project! Ask in our support group for repo! xD'
 		)
 		return
 	msg = client.send_message(
@@ -113,8 +113,8 @@ def check_size(path,userid):
 	b=os.path.getsize(path)
 	print('file size is',b)
 	obj=virus(str(path))
-	if b>32*1024*1024:
-		send_msg(userid,'Sorry This file is larger than 32Mb')
+	if b>1024*1024*1024:
+		send_msg(userid,'Sorry This file is larger than my limit! So I cant scan it! Sorry!')
 		# obj.large_files()
 		return
 	else:
